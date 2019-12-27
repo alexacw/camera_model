@@ -26,7 +26,7 @@ Chessboard::Chessboard( cv::Size boardSize, cv::Mat& image )
     {
         image.copyTo( mSketch );
 //        cv::cvtColor( image, mImage, CV_BGR2GRAY );
-        cv::cvtColor( image, mImage, cv::COLOR_GRAY2BGR );
+        cv::cvtColor( image, mImage, cv::COLOR_BGR2GRAY );
     }
 }
 
